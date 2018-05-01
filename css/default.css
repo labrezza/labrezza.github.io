@@ -4,11 +4,14 @@ html {
 
 body {
   font-size: 1.6rem;
-  color: #290A1B;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #171612;
+  background: #f2ede9;
 }
 
 header {
-  border-bottom: 0.4rem dotted #421C52;
+  border-bottom: 0.2rem solid #b25454;
+  background-color: #b9bfb5;
 }
 
 nav {
@@ -18,7 +21,7 @@ nav {
 nav a {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #290A1B;
+  color: #171612;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -26,9 +29,9 @@ nav a {
 footer {
   margin-top: 3rem;
   padding: 1.2rem 0;
-  border-top: 0.4rem solid #421C52;
+  border-top: 0.2rem solid #b25454;
   font-size: 1.2rem;
-  color: #9C8AA5;
+  color: #7c8274;
 }
 
 h1 {
@@ -42,16 +45,17 @@ h2 {
 article .header {
   font-size: 1.4rem;
   font-style: italic;
-  color: #555;
+  color: #7c8274;
 }
 
 .logo a {
   font-weight: bold;
-  color: #000;
+  color: #b25454;
   text-decoration: none;
+  text-transform: uppercase;
 }
 
-@media (max-width: 319px) {
+@media (max-width: 400px) {
   body {
     width: 90%;
     margin: 0;
