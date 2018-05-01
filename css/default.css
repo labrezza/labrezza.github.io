@@ -4,11 +4,12 @@ html {
 
 body {
   font-size: 1.6rem;
-  color: #000;
+  color: #290A1B;
 }
 
 header {
-  border-bottom: 0.2rem solid #000;
+  color: #732C7B
+  border-bottom: 0.2rem dotted #421C52;
 }
 
 nav {
@@ -18,7 +19,7 @@ nav {
 nav a {
   font-size: 1.8rem;
   font-weight: bold;
-  color: black;
+  color: #290A1B;
   text-decoration: none;
   text-transform: uppercase;
 }
@@ -28,7 +29,7 @@ footer {
   padding: 1.2rem 0;
   border-top: 0.2rem solid #000;
   font-size: 1.2rem;
-  color: #555;
+  color: #9C8AA5;
 }
 
 h1 {
@@ -111,7 +112,7 @@ article .header {
 
 @media (min-width: 640px) {
   body {
-    width: 60rem;
+    width: 90rem;
     margin: 0 auto;
     padding: 0;
   }
