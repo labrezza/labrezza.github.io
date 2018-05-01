@@ -8,8 +8,7 @@ body {
 }
 
 header {
-  color: #732C7B;
-  border-bottom: 0.2rem dotted #421C52;
+  border-bottom: 0.4rem dotted #421C52;
 }
 
 nav {
@@ -27,7 +26,7 @@ nav a {
 footer {
   margin-top: 3rem;
   padding: 1.2rem 0;
-  border-top: 0.2rem solid #000;
+  border-top: 0.4rem solid #421C52;
   font-size: 1.2rem;
   color: #9C8AA5;
 }
