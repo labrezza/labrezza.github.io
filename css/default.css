@@ -27,6 +27,12 @@ nav a {
   text-transform: uppercase;
 }
 
+blockquote {
+  background-color: #877c77;
+  font-style: italic;
+  padding: 0.25em 2em;  
+}
+
 footer {
   margin-top: 3rem;
   padding: 1.2rem 0;
