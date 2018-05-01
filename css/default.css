@@ -22,9 +22,10 @@ nav {
 nav a {
   font-size: 1.8rem;
   font-weight: bold;
-  color: #171612;
+  color: #070603;
   text-decoration: none;
   text-transform: uppercase;
+  padding-right: 15px;
 }
 
 blockquote {
@@ -65,7 +66,7 @@ article .header {
 @media (max-width: 100%) {
   body {
     width: 90%;
-    margin: 0;
+    margin: auto;
     padding: 0 5%;
   }
   header {
@@ -94,7 +95,7 @@ article .header {
 @media (min-width: 50%) {
   body {
     width: 100%;
-    margin: 0;
+    margin: auto;
     padding: 0 5%;
   }
   header {
