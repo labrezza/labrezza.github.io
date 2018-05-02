@@ -75,12 +75,19 @@ article .header {
   margin-top: 3.5em;
 }
 
-.logo a {
+/*.logo a {
   font-weight: bold;
   color: #b25454;
   text-decoration: none;
   text-transform: uppercase;
   padding-left: 2%;
+}*/
+
+.logo img {
+float: left;
+width: 100px;
+height: 100px;
+padding: 2px;
 }
 
 @media (max-width: 600px) {
