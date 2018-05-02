@@ -18,8 +18,7 @@ header {
   position: fixed;
   top: 0;
   right: 0;
-  left: 0;  
-  bottom: 2%;
+  left: 0;
 }
 
 nav {
@@ -91,7 +90,6 @@ article .header {
     padding: 10% 0 1 0%;
   }
   header {
-    margin: 4.2rem 0;
     width: 100%;
     position: static;
   }
@@ -124,22 +122,22 @@ article .header {
     position: fixed;
   }
   header {
-    margin: 4.2rem 0;
+    position: fixed;
   }
   nav {
     margin: 0 auto 3rem;
-    text-align: left;
+    text-align: right;
   }
   footer {
     text-align: center;
   }
   .logo {
-    text-align: right;
+    text-align: left;
     margin: 1rem auto 3rem;
   }
   .logo a {
     font-size: 2.4rem;
-    padding-left: 0%;
+    padding-left: 1%;
   }
   nav a {
     display: inline;
