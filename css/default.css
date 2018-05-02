@@ -12,12 +12,14 @@ body {
 }
 
 header {
-  border-bottom: 0.2rem solid #b25454;
-  background-color: #b9bfb5;
+  /* border-bottom: 0.2rem solid #b25454; */
+  background-color: #4a4645;
+  color: #f2ede9;
   position: fixed;
   top: 0;
   right: 0;
   left: 0;  
+  bottom: 2%;
 }
 
 nav {
@@ -79,6 +81,7 @@ article .header {
   color: #b25454;
   text-decoration: none;
   text-transform: uppercase;
+  padding-left: 2%;
 }
 
 @media (max-width: 600px) {
@@ -90,6 +93,7 @@ article .header {
   header {
     margin: 4.2rem 0;
     width: 100%;
+    position: static;
   }
   nav {
     margin: 0 auto 3rem;
@@ -101,6 +105,7 @@ article .header {
   .logo {
     text-align: left;
     margin: 1rem auto 3rem;
+    padding-left: 0%;
   }
   .logo a {
     font-size: 2.4rem;
@@ -111,11 +116,12 @@ article .header {
   }
 }
 
-@media (min-width: 400px) {
+@media (min-width: 600px) {
   body {
     width: 100%;
     margin: 0;
     padding: 10% 0 1 0%;
+    position: fixed;
   }
   header {
     margin: 4.2rem 0;
@@ -133,6 +139,7 @@ article .header {
   }
   .logo a {
     font-size: 2.4rem;
+    padding-left: 0%;
   }
   nav a {
     display: inline;
@@ -140,19 +147,20 @@ article .header {
   }
 }
 
-@media (min-width: 500px) {
+@media (max-width: 300px) {
   body {
     width: 100%;
     margin: 0 auto;
-    padding: 10% 0 1 0%;
+    padding: 2% 0 1 0%;
   }
   header {
     margin: 0 0 3rem;
     padding: 1.7rem 0;
+    position: static;
   }
   nav {
     margin: 0;
-    text-align: right;
+    text-align: center;
   }
   nav a {
     margin: 0 0 0 1.2rem;
@@ -164,6 +172,7 @@ article .header {
   .logo {
     margin: 0;
     text-align: left;
+    padding-left: 0%;
   }
   .logo a {
     float: left;
