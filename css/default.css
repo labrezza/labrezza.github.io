@@ -13,8 +13,7 @@ body {
 
 header {
   /* border-bottom: 0.2rem solid #b25454; */
-  background-color: #4a4645;
-  color: #f2ede9;
+  background-color: #877c77;
   position: fixed;
   top: 0;
   right: 0;
@@ -23,6 +22,7 @@ header {
 
 nav {
   text-align: right;
+  color: #423f3e
 }
 
 nav a {
