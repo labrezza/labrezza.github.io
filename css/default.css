@@ -78,3 +78,99 @@ blockquote {
     font-style: italic;
     padding: 0.25em 2em
 }
+
+/* @media (max-width:600px) {
+    body {
+        width: 90%;
+        margin: 5px;
+        padding: 10% 0 1 0%
+    }
+    header {
+        margin: 4.2rem 0;
+        width: 100%;
+        position: static
+    }
+    nav {
+        margin: 0 auto 3rem;
+        text-align: right
+    }
+    footer {
+        text-align: center
+    }
+    .logo {
+        text-align: left;
+        margin: 1rem auto 3rem;
+        padding-left: 0%
+    }
+    .logo a {
+        font-size: 2.4rem
+    }
+    nav a {
+        display: block;
+        line-height: 1.6
+    }
+}
+
+@media (min-width:600px) {
+    body {
+        width: 100%;
+        margin: 0;
+        padding: 10% 0 1 0%;
+        position: fixed
+    }
+    header {
+        margin: 4.2rem 0
+    }
+    nav {
+        margin: 0 auto 3rem;
+        text-align: left
+    }
+    footer {
+        text-align: center
+    }
+    .logo {
+        text-align: right;
+        margin: 1rem auto 3rem
+    }
+    .logo a {
+        font-size: 2.4rem;
+        padding-left: 0%
+    }
+    nav a {
+        display: inline;
+        margin: 0 0.6rem
+    }
+}
+
+@media (max-width:300px) {
+    body {
+        width: 100%;
+        margin: 0 auto;
+        padding: 2% 0 1 0%
+    }
+    header {
+        margin: 0 0 3rem;
+        padding: 1.7rem 0;
+        position: static
+    }
+    nav {
+        margin: 0;
+        text-align: center
+    }
+    nav a {
+        margin: 0 0 0 1.2rem;
+        display: inline
+    }
+    footer {
+        text-align: right
+    }
+    .logo {
+        margin: 0;
+        text-align: left;
+        padding-left: 0%
+    }
+    .logo a {
+        float: left;
+        font-size: 1.8rem
+    }
+}*/
