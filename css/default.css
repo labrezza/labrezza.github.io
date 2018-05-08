@@ -1,27 +1,54 @@
+/*Import fonts from fonts/ folder */
+@font-face {
+  font-family: 'Source Sans Pro';
+  font-style: normal;
+  font-weight: normal;
+}
+
+@font-face {
+    font-family: 'Cabin';
+    font-style: normal;
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: 'Mono16';
+    /*src: local('Monoid'), url('/fonts/Monoid-Regular.ttf') format('opentype');*/
+    font-style: normal;
+    font-weight: normal;
+}
+
 html {
-    font-size: 62.5%
+    font-size: 70%;
+    margin: 0;
+    padding: 0
 }
 
 body {
     max-width: 1000px;
     font-size: 1.6rem;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-family: 'Source Sans Pro', 'Cabin', Arial, sans-serif;
     color: #171612;
     background: #f2ede9;
-    margin: 3.5em 3.5em
+    margin: auto;
+    padding: 0
 }
 
 header {
-    background-color: #877c77;
-    position: fixed;
+    /*background-color: #877c77;
+    position: fixed;*/
     top: 0;
     right: 0;
-    left: 0
+    left: 0;
+    padding: 2%
 }
 
 nav {
     text-align: right;
-    color: #423f3e
+    color: #423f3e;
+    padding: 1em
+    font-family: 'Mono16', monospace;
+    font-weight: bold;
 }
 
 nav a {
@@ -30,7 +57,7 @@ nav a {
     color: #070603;
     text-decoration: none;
     text-transform: uppercase;
-    padding-right: 2%
+    padding: 2%
 }
 
 article .header {
