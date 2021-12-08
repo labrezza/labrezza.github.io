@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9 http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd" xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url>
-<loc>https://labrezza.github.io/blog/welcome-to-jekyll/</loc>
-<lastmod>2019-10-03T15:22:16+02:00</lastmod>
-</url>
-<url>
 <loc>https://labrezza.github.io/about/</loc>
-</url>
-<url>
-<loc>https://labrezza.github.io/contact/</loc>
 </url>
 <url>
 <loc>https://labrezza.github.io/</loc>
@@ -17,25 +10,10 @@
 <loc>https://labrezza.github.io/projects/</loc>
 </url>
 <url>
-<loc>https://labrezza.github.io/resume/</loc>
-</url>
-<url>
 <loc>https://labrezza.github.io/blog/search/</loc>
 </url>
 <url>
 <loc>https://labrezza.github.io/blog/tags/</loc>
-</url>
-<url>
-<loc>https://labrezza.github.io/blog/tags/example/</loc>
-</url>
-<url>
-<loc>https://labrezza.github.io/blog/tags/welcome/</loc>
-</url>
-<url>
-<loc>https://labrezza.github.io/blog/tags/jekyll/</loc>
-</url>
-<url>
-<loc>https://labrezza.github.io/blog/tags/typing/</loc>
 </url>
 <url>
 <loc>https://labrezza.github.io/blog/</loc>
