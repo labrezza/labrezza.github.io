@@ -14,8 +14,8 @@ website:
 # Theme - Values [ typing | whiteglass | cloudysky | hacking | littlegirl | custom ]
   theme: "whiteglass"
 # Configuration default
-  title: "Typing"
-  description: "Typing - A Theme for Jekyll"
+  title: "The Mast-Head"
+  description: "A personal blog"
   launch: 2021
   metatag:
     google_site_verification:
