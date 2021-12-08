@@ -37,7 +37,7 @@ website:
 # Sidebar
   sidebar:
     avatar:
-      img: "typing_face.png"
+      img: "the_mast-head_logo.png"
       flip:
         img: "typing_back.png"
     title:
