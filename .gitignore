@@ -17,3 +17,4 @@ package-lock.json
 **/*.log
 Gemfile.lock
 package-lock.json
+.DS_Store
