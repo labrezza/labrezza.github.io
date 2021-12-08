@@ -8,7 +8,7 @@ blog:
   enable: true
 google:
   analytics:
-    enable: true
+    enable: false
 global:
   links:
     underline: true
@@ -31,7 +31,7 @@ sidebar:
     # <!-- Add your SVG - END -->
     # and, then create a stylesheet to configure svg.
     flip:
-      enable: true
+      enable: false
       face:
         svg_inner: false
       back:
