@@ -1,6 +1,6 @@
 ---
 layout: hello
-title: Typing
+title: Giulia
 menu:
   enable: false
   local: [null]
