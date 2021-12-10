@@ -1,20 +1,20 @@
-node_modules/
-cache/
-assets/vendor/js/*.js
-assets/vendor/js/*.map
-!assets/vendor/js/simple-jekyll-search.min.js
+# sublime text
+*.tmlanguage.cache
+*.tmPreferences.cache
+*.stTheme.cache
+*.sublime-workspace
+sftp-config.json
+
+# jekyll
+_drafts/
 _site/
-public/
-temp/
-tmp/
 .sass-cache/
-.jekyll-cache/
-.jekyll-metadata/
-package-lock.json
-*.Indentifier
-**/*.bak
-**/*.lock
-**/*.log
-Gemfile.lock
-package-lock.json
+.jekyll-metadata
+
+# rubygems
+.bundle/
+vendor/
+
+# custom
+*.bat
 .DS_Store
