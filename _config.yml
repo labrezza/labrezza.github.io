@@ -1,4 +1,4 @@
-title:               Celeste
+title:               The Mast-Head
 url:                 https://nicoelayda.github.io
 baseurl:             ""
 
@@ -19,9 +19,9 @@ sass:
   style:             :compressed
 
 author:
-  name:              Nico Elayda
-  url:               nicoelayda.github.io
-  email:             nico@elayda.com
+  name:              Giulia Brazzale
+  url:               labrezza.github.io
+  email:             giulia.brazzale@inventati.org
 
 plugins:
   - jekyll-coffeescript
