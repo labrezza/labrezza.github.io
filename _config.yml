@@ -1,29 +1,77 @@
-title:               The Mast-Head
-url:                 https://nicoelayda.github.io
-baseurl:             ""
+title: "The Mast-Head"
+email: giulia.brazzale@inventati.org
+description: >- # this means to ignore newlines until "baseurl:"
+A personal blog about literature, stationery, teaching, and everything else in between
+baseurl: "https://themasthead.netlify.app" # the subpath of your site, e.g. /blog
+url: "" # the base hostname & protocol for your site, e.g. http://example.com
+repository: /labrezza/themasthead
+twitter:
+github: labrezza
 
-markdown:            kramdown
-highlighter:         rouge
+header_image: assets/masthead-home.png
 
-exclude:             ['*.sublime-*', 'README.md', 'LICENSE', 'Gemfile', 'Gemfile.lock', 'vendor/bundle']
+google_analytics:
+comments: false
+disqus:
 
-permalink:           pretty
-paginate:            5
-paginate_path:       /blog/:num
+author: Giulia Brazzale
+author_bio: >-
+  I am an Italian teacher of English as a foreign language and student of American Literature at the University of Venice, Italy. The views expressed in this blohg are my own unless otherwise stated.
+author_pic:
 
-blog:
-  truncated_preview: false
+paginate: 5
+paginate_path: "/:num/"
 
-sass:
-  sass_dir:          _sass
-  style:             :compressed
+markdown: kramdown
 
-author:
-  name:              Giulia Brazzale
-  url:               labrezza.github.io
-  email:             giulia.brazzale@inventati.org
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
+# Build settings
+theme: null
 plugins:
-  - jekyll-coffeescript
+  - jekyll-feed
+  - jekyll-seo-tag
   - jekyll-paginate
-  - jekyll-gist
+permalink: /:title
+
+defaults:
+  - scope:
+      path: "" # an empty string here means all files in the project
+      type: "posts" # previously `post` in Jekyll 2.2.
+    values:
+      layout: "post"
+      author: Giulia
+      avatar: assets/masthead-home.png
+  - scope:
+      path: ""
+      type: notes
+    values:
+      layout: post
+      content-type: notes
+  - scope:
+      path: ""
+      type: journals
+    values:
+      layout: journal-entry
+      content-type: journals
+
+# Allows all pages to be put into `_pages` folder
+# for easier navigation and better SEO.
+collections:
+  pages:
+    output: true
+    permalink: /:title
+  notes:
+    output: true
+    permalink: /notes/:title
+  journals:
+    output: true
+    permalink: /journals/:title
+
+# Exclude from processing.
+exclude:
+  - ".jekyll-cache"
+  - "Gemfile"
+  - "Gemfile.lock"

@@ -1,33 +1,30 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
 
-  {% include head.html %}
+{%- include head.html -%}
 
-  <body>
-    <nav class="nav-main">
-      <ul>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/about/">about</a></li>
-        <li class="logo"><a class="hvr-ripple-out" href="{{ site.baseurl }}/">C</a></li>
-        <li class="hvr-underline-reveal"><a href="{{ site.baseurl }}/blog/">blog</a></li>
-      </ul>
-    </nav>
+<body>
 
-    <div class="container content">
-      <main>
-        {{ content }}
-      </main>
+    <div id="layout" class="pure-g">
 
-      <footer class="footer">
-        <small>
-            <span class="copyright"><i class="fa fa-copyright"></i> 2021-<time datetime="{{ site.time | date_to_xmlschema }}">{{ site.time | date: '%Y' }}</time> {{ site.author.name }}</span> &middot;
-            <span>Powered by <a href="http://jekyllrb.com/">Jekyll</a></span>
-        </small>
-        <div class="ftr-links">
-          <a href="http://seashepherd.org"><i class="fa fa-ship"></i></a>
-          <a href="http://lav.it"><i class="fa fa-heart"></i></a>
+        {%- include sidebar.html -%}
+
+        <div class="content pure-u-1 pure-u-md-3-4">
+            <div class="md-display">
+                <h1>
+                    <a class="jekyll-header" href="/">Welcome to {{site.title}}</a>
+                </h1>
+                {%- include links.html -%}
+                {%- include search.html -%}
+            </div>
+            <div>
+                {{ content }}
+                {%-include footer.html -%}
+
+            </div>
         </div>
-      </footer>
     </div>
 
-  </body>
+</body>
+
 </html>
